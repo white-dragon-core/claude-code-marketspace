@@ -6,9 +6,30 @@
 
 将此市场添加到 Claude Code：
 
-```bash
+**方法1**
+
+在 `claud code` 命令行里:
+```
+/plugin
+```
+
+- 选择 `3. Add marketplace`
+- 输入 `white-dragon-core/claude-code-marketspace` 或 `https://github.com/white-dragon-core/claude-code-marketspace` 或 `git@github.com:white-dragon-core/claude-code-marketspace.git`
+    - 将会 clone 仓库到 `~/.claude` 目录
+    - 都试试, 有概率失败.
+    - 确认代理开启
+- 安装完毕后, 进入插件选择界面
+- 按下 `空格` 选中待安装插件
+- 全部选中
+- 按下 `i` 等待安装完毕.
+
+**方法2**
+在 `claud code` 命令行里:
+```
 /plugin marketplace add white-dragon-core/claude-code-marketspace
 ```
+
+然后在下面的可用插件里, 获取指令, 手工安装.
 
 ## 可用插件
 
@@ -116,22 +137,12 @@
 
 ---
 
-## 市场结构
 
-```
-superpowers-marketplace/
-├── .claude-plugin/
-│   └── marketplace.json       # 插件目录
-└── README.md                  # 本文件
-```
+## 验证
 
-## 支持
+安装成功后, 启动 `claude code`.
+- 询问 `密码是什么`
+- 回答 `天王盖地虎,武松三十五`
 
-- **问题反馈**: https://github.com/white-dragon-core/claude-code-marketspace/issues
-- **核心插件**: https://github.com/obra/superpowers
-
-## 许可证
-
-市场元数据：MIT 许可证
-
-各个插件：请参阅各自插件的许可证
+**注意**
+`/plugin` 后, 有个选项 `2. Manage and uninstall plugins`, 可以开启或关闭插件, 需要关注插件状态.
