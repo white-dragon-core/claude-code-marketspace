@@ -6,7 +6,7 @@
     },
     "metadata": {
       "description": "Curated Claude Code plugins: skills, workflows, and productivity tools",
-      "version": "1.0.8"
+      "version": "1.0.9"
     },
     "plugins": [
       {
@@ -46,7 +46,7 @@
           "url": "https://github.com/white-dragon-bevy/claude-bevy.git"
         },
         "description": "Bevy Framework for Claude Code is a tool for developing Bevy Framework plugins, skills, MCP servers, and extensions. Includes comprehensive official documentation and self-update mechanism.",
-        "version": "0.9.2",
+        "version": "0.1.10",
         "strict": true
       },
       {
@@ -56,7 +56,7 @@
           "url": "https://github.com/white-dragon-core/test-cloud-testez.git"
         },
         "description": "Test Cloud Testez is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and debugging code. It is a tool for testing and and debugging code. Includes comprehensive official documentation and self-update mechanism.",
-        "version": "0.9.2",
+        "version": "0.3.0",
         "strict": true
       }
 
